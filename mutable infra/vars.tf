@@ -1,22 +1,8 @@
 variable "ENV" {}
-
-# MySQL Variables
-variable "MYSQL_RDS_PORT" {}
-variable "MYSQL_RDS_STORAGE" {}
-variable "MYSQL_RDS_ENGINE_VERSION" {}
-variable "MYSQL_RDS_INSTANCE_TYPE" {}
-
-# DocDB Variables 
-variable "DOCDB_PORT" {}
-variable "DOCDB_INSTANCE_CLASS" {}
-variable "DOCDB_INSTANCE_COUNT" {}
-
-# Elasticcache Variables 
-variable "ELASTIC_CACHE_PORT" {}
-variable "ELASTIC_CACHE_NODE_TYPE" {}
-variable "ELASTIC_CACHE_NODE_COUNT" {}
-variable "ELASTIC_CACHE_ENGINE_VERSION" {}
-
-# # RabbitMQ
-
-# variable "RABBITMQ_PORT" {}
+variable "INSTANCE_TYPE" {}
+variable "SPOT_INSTANCE_COUNT" {}
+variable "OD_INSTANCE_COUNT" {}
+variable "COMPONENT" {}
+variable "APP_PORT" {}
+variable "APP_VERSION" {}
+# variable "LB_TYPE" {}
