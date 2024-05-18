@@ -1,11 +1,3 @@
-docdb:
-    source: "https://github.com/MuneerBSK/tf-module-mongodb.git"
-    version: "main"
-
-redis:
-    source: "https://github.com/MuneerBSK/tf-module-redis.git"
-    version: "main"
-
-mysql:
-    source: "https://github.com/MuneerBSK/tf-module-mysql.git"
+app:
+    source: "https://github.com/MuneerBSK/tf-module-mutable-app.git"
     version: "main"
